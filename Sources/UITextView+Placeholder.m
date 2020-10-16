@@ -130,7 +130,7 @@
     return self.placeholderTextView.text;
 }
 
-- (void)setPlaceholder:(NSString *)placeholder {
+- (void)setTextViewPlaceholder:(NSString *)placeholder {
     self.placeholderTextView.text = placeholder;
     [self updatePlaceholderTextView];
 }
